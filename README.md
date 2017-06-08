@@ -1,5 +1,5 @@
 # saml_wsgi
-Minimal SAMLv2 IdP (Identity Provider) designed for Alfresco testing and QA
+## Minimal SAMLv2 IdP (Identity Provider) designed for Alfresco testing and QA
 
 
 This is a minimal IdP (Identity Provider) that will allow you to test Alfresco SAML SP (Service Provider).
@@ -9,10 +9,11 @@ The only dependancy is xmlsec1
 
 On a ubuntu/debian system :
 
+```bash
 apt-get install xmlsec1
+```
 
-
-You will need a pair of pivate and public keys.
+You will need a pair of private and public keys.
 
 ```bash
 ------ example---------
